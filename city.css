@@ -1,0 +1,127 @@
+.sky{
+    background-image:url(sky.jpg);
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+    height: 700px;
+
+}
+
+.cityposition
+{ 
+    margin-top: 200px;
+   position: relative;
+   background: url(city.png);
+   height: 42vh;
+   background-size: cover;
+   background-position: 0 0;
+   background-repeat: repeat-x;
+   animation: city 15s linear infinite;
+}
+
+@keyframes city {
+    from{
+          background-position: 0 0 ;
+    }
+    to{
+        background-position: 500% 0;
+    }
+}
+
+
+.road
+{
+    margin-top: 0px;
+    position: relative;
+    background: url(road.jpg);
+    height: 40vh;
+    background-size: cover;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    animation: road 15s linear infinite;
+}
+@keyframes road {
+    from{
+          background-position: 0 0 ;
+    }
+    to{
+        background-position: 500% 0;
+    }
+}
+.car
+{
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 200px;
+    bottom: 70px;
+    height: 200px;
+    width:450px
+}
+
+
+
+
+.wheel1
+{
+    margin-left: 585px;
+    margin-top: -254px;
+    animation: wheel 1s linear infinite;
+    z-index: 2;
+    position: absolute;
+}
+.wheel2
+{
+    margin-left: 858px;
+    margin-top: -254px;
+    animation: wheel 1s infinite;
+    z-index:2;
+    position: absolute;
+}
+
+@keyframes wheel {
+   100%
+   {
+       transform: rotate(360deg);
+   } 
+    
+}
+
+.happy
+{
+    background-color: orange;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-left: 600px;
+}
+
+.ind
+{
+    background-color: white;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.day
+{
+    background-color: green;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.flag{
+    position: absolute;
+    top: 460px;
+    z-index:2;
+    left: 890px;
+    width: 50px;
+}
+
+.sun{
+    position: absolute;
+    top: 20px;
+    z-index:2;
+    left: 1300px;
+    width: 50px;
+    opacity: 1;
+}

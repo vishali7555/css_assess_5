@@ -1,0 +1,198 @@
+body
+{
+    background-color: rgb(238, 238, 69);
+}
+
+.parent
+{
+    top:20px;
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    margin-top: 52px;
+    padding: 10px;
+    display : inline-block;
+    background-color: teal;
+    transition: transform 2s ease-in-out;
+    animation: first 5s infinite;
+}
+
+.number
+{
+    margin-left: 400px; 
+    display: inline;
+    margin-top: 98px;
+}
+
+.child1
+{
+   margin-left: 100px; 
+ 
+}
+
+@keyframes first {
+    50%{
+        transform: skewX(15deg);
+    }
+    100%{
+        transform: skewX(-15deg);
+  
+    }}
+
+.parent1
+{
+    margin-top: 150px;
+}
+
+.child01
+{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    padding: 10px;
+    display : inline-block;
+    background-color: palevioletred;
+    transition: transform 1s;
+    animation: second 5s infinite;
+  
+    
+}
+
+@keyframes second {
+    50%{
+        transform: skewY(30deg);
+    }
+    100%{
+        transform: skewY(-30deg);
+    }
+}
+ 
+
+.child001
+{
+    margin-left: 100px; 
+}
+
+.number2
+{
+    margin-left: 400px; 
+    display: inline;
+    margin-top: 150px;
+}
+
+.parent2
+{
+    margin-top: 250px;
+}
+
+.child02
+{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    padding: 10px;
+    display : inline-block;
+    background-color: teal;
+    transition: transform 2s ease-in-out;
+    animation: third 3s infinite;
+}
+
+.child0001
+{
+    margin-left: 100px; 
+}
+  
+.number3
+{
+    margin-left: 400px; 
+    display: inline;
+    margin-top: 250px;
+}
+
+@keyframes third {
+    100%{
+        transform: rotate(360deg);
+    }
+   
+}
+
+.parent3
+{
+    margin-top: 350px;
+}
+
+.child03
+{
+    
+    margin-top: 10px;
+    padding: 10px;
+    display : inline-block;
+   
+}
+
+.child00001
+{
+    margin-left: 100px;
+    width: 100px;
+    height: 100px;
+    animation: four 3s infinite;
+    background-color: teal; 
+
+}
+
+.number4
+{
+    margin-left: 400px; 
+    display: inline;
+    margin-top: 350px;
+}
+
+@keyframes four {
+    100%{
+        transform: scaleY(1.3);
+    }
+   
+}
+.child00002
+{
+    margin-left: 40px;
+    width: 50px;
+    height: 100px;
+    animation: five 3s infinite;
+    background-color: brown; 
+    
+}
+
+@keyframes five {
+    100%{
+        transform: scaleX(1.5);
+    }
+   
+}
+
+.child00003
+{
+   
+    margin-left: 40px;
+    width: 100px;
+    height: 100px;
+    animation: six 3s infinite;
+    background-color:green; 
+    
+}
+
+@keyframes six {
+    100%{
+        transform: rotate(90deg);
+    }
+   
+}
+
+.link
+{
+    text-align: center;
+    font-size: 30px;
+    margin-left: 570px;
+}

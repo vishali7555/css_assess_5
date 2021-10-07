@@ -1,0 +1,101 @@
+body
+{
+    background-color: lightblue;
+}
+.parent
+{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 680px;
+}
+.num
+{
+    margin-left: -900px;
+    margin-top: 20px;
+}
+
+.box
+{
+    height: 150px;
+    width: 150px;
+    background-color: rgba(78, 78, 179, 0.432);
+}
+
+.box1{
+    transition: width 2s;
+}
+
+
+.box1:hover
+{
+  width: 300px;
+}
+
+.box2{
+    transition: width 2s,height 2s;
+}
+
+
+.box2:hover
+{
+  width: 300px;
+  height:300px;
+}
+
+.box3{
+    transition: width 2s linear;
+}
+
+
+.box3:hover
+{
+  width: 300px;
+}
+
+.box4{
+    transition: width 2s ease;
+}
+
+
+.box4:hover
+{
+  width: 300px;
+}
+
+.box5{
+    transition: width 2s ease-in;
+}
+
+
+.box5:hover
+{
+  width: 300px;
+}
+
+.box6{
+    transition: width 2s ease-out;
+}
+
+
+.box6:hover
+{
+  width: 300px;
+}
+
+.box7{
+    transition: width 2s ease-in-out;
+}
+
+
+.box7:hover
+{
+  width: 300px;
+}
+
+.link
+{
+    text-align: center;
+    font-size: 30px;
+    margin-left:5s0px;
+    display: block;
+}
